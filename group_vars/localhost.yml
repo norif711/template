@@ -1,0 +1,40 @@
+taps:
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/cask-fonts
+  - homebrew/core
+
+packages:
+  - { name: python, state: latest }
+  - name: awscli
+  - name: docker
+  - name: docker-compose
+  - name: docker-machine
+  - name: git
+  - name: git-lfs
+  - name: jq
+  - name: tree
+  - name: wget
+  - name: zsh-syntax-highlighting
+  - name: vim
+  - name: emacs
+  - name: mosh
+  - name: tmux
+  - name: supervisor
+  - name: htop
+  - name: openssl
+
+cask_packages:
+  - name: visual-studio-code
+  - name: alfred
+  #- name: firefox
+  - name: vagrant
+  - name: slack
+  - name: google-japanese-ime
+  - name: karabiner-elements
+  - name: atom
+  - name: microsoft-teams
+
+dotfiles:
+  - .zshrc
+  - .vimrc
